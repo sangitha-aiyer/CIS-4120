@@ -1,0 +1,137 @@
+  <title>Penn Class Search</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .phone {
+      width: 390px;
+      min-height: 100vh;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .banner {
+      background-color: #011F5B;
+      color: white;
+      padding: 10px;
+      text-align: right;
+      font-size: 16px;
+    }
+    .banner span {
+      font-weight: bold;
+    }
+
+    .header {
+      background-color: #990000;
+      color: white;
+      padding: 15px;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .form {
+      padding: 15px;
+    }
+
+    .form input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .search-button {
+      background-color: #011F5B;
+      color: white;
+      padding: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      border: none;
+      border-radius: 4px;
+      cursor: default;
+      width: 100%;
+    }
+
+    .results-header {
+      background-color: #990000;
+      color: white;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .results-sub {
+      font-size: 14px;
+      color: #333;
+      margin: 5px 15px;
+    }
+
+    .course {
+      border: 1px solid #ccc;
+      margin: 10px 15px;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    .course-title {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    .course-sub {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <div class="banner">
+      Welcome, <span>Sangitha</span>
+    </div>
+
+    <div class="header">
+      Search Classes
+    </div>
+
+    <div class="form">
+      <input type="text" value="Fall 2025">
+      <input type="text" value="CIS">
+      <input type="text" value="Instruction Method">
+      <button class="search-button">SEARCH</button>
+    </div>
+
+    <div class="results-header">Search Results</div>
+    <div class="results-sub">Found 98 courses | Reset Search</div>
+
+    <div class="course">
+      <div class="course-title">CIS 1100 — Introduction to Computer Programming</div>
+      <div class="course-sub">2 lectures, 15 recitations</div>
+    </div>
+
+    <div class="course">
+      <div class="course-title">CIS 1200 — Programming Languages and Techniques I</div>
+      <div class="course-sub">2 lectures, 20 recitations</div>
+    </div>
+
+    <div class="course">
+      <div class="course-title">CIS 1210 — Programming Languages and Techniques II</div>
+      <div class="course-sub">1 lecture, 16 recitations</div>
+    </div>
+
+    <div class="course">
+      <div class="course-title">CIS 1400 — Introduction to Cognitive Science</div>
+      <div class="course-sub">1 lecture, 11 recitations</div>
+    </div>
+  </div>
+</body>
+</html>
